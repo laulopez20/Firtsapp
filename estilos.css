@@ -1,0 +1,34 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    margin:0;
+
+}
+h1{
+    color:beige;
+    text-align: center;
+    font-size: 36 px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 23 px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+table{
+    border: #ccc;
+    margin: auto;
+}
+.imagen{
+    width: 300 px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.imagen:hover{
+    /*transform:rotate(30deg);*/
+    transform: scale(5);
+
+}
